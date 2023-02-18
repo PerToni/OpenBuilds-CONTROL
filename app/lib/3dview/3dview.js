@@ -182,7 +182,7 @@ function runSimFrom(startindex, singleLineOnly) {
 function sim() {
   if (typeof(object) == 'undefined' || !scene.getObjectByName('gcodeobject')) {
     // console.log('No Gcode in Preview yet')
-    var message = `No Gcode in Preview yet: Please load GCODE from the Open GCODE button first before running simulation`
+    var message = ``Ingen Gcode i forhåndsvisning endnu: Indlæs GCODE fra knappen Åbn GCODE først, før du kører simulering`
     Metro.toast.create(message, null, 10000, 'bg-red');
     simstop()
   } else {
