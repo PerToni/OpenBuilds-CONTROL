@@ -2,7 +2,7 @@
 var exports = module.exports = {};
 
 var grblErrorCodes = {
-  0: "no error",
+  0: "ingen fejl",
   1: "G-code words consist of a letter and a value. Letter was not found.",
   2: "Numeric value format is not valid or missing an expected value.",
   3: "Grbl '$' system command was not recognized or supported.",
